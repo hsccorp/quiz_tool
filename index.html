@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>
+        HSC Tech Quiz
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+</head>
+
+<body>
+    <div class="page-container row">
+        <div id="logodiv" class="col-sm-1 col-lg-1">
+            <img id="logo" src="images/logo.png">
+        </div>
+        <div id="contentdiv" class="col-sm-11 col-lg-11">
+            <h1 id="q_txt">
+            </h1>
+            <div id="meatDiv" class="container">
+                <div id="audioVideoDiv">
+                    <video id="video1" class="embed-responsive-item">
+                        <source src="" type="video/mp4" >
+                    </video>
+                    <audio id="audio1" >
+                        <source src="" type="audio/mp3" >
+                    </audio>
+                </div>
+                <div id="optionsDiv">
+                    <div id="optionsDiv1" class="row">
+                        <h3 id="option1" class="optionText col-sm-6 col-lg-6"></h3>
+                        <h3 id="option2" class="optionText col-sm-6 col-lg-6"></h3>
+                    </div>
+                    <div id="optionsDiv2" class="row">
+                        <h3 id="option3" class="optionText col-sm-6 col-lg-6"></h3>
+                        <h3 id="option4" class="optionText col-sm-6 col-lg-6"></h3>
+                    </div>
+                </div>
+                <div class="row" id="imageTimerDiv">
+                    <div id="imageDiv" class="col-lg-7 col-sm-7">
+                        <img id="image1"></img>
+                    </div>
+                    <div id="timerDiv" class="col-lg-5 col-sm-5">
+                        <div id ="timer" class="timer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="controlRow" class="row">
+            <button type="button" id ="play" class="btn btn-primary" accesskey="l">Play</button>
+            <button type="button" id ="showQ" class="btn btn-primary" accesskey="q">Question</button>
+            <button type="button" id ="options" class="btn btn-primary" accesskey="o">Options</button>
+            <button type="button" id ="timerb" class="btn btn-primary" accesskey="t">Timer</button>
+            <button type="button" id ="pass" class="btn btn-primary" accesskey="p">Pass</button>
+            <button type="button" id ="clear" class="btn btn-primary" accesskey="c">Clear</button>
+            <button type="button" id ="nextQ" class="btn btn-primary" accesskey="n">NextQ</button>
+            <button type="button" id ="nextRd" class="btn btn-primary" accesskey="r">NextRd</button>
+            <button type="button" id ="answer" class="btn btn-primary" accesskey="a">Answer</button>
+            <button type="button" id ="right" class="btn btn-success" accesskey="u">Right</button>
+            <button type="button" id ="wrong" class="btn btn-danger" accesskey="w">Wrong</button>
+
+            <audio id="audioCtrl">       <!-- For playing various sounds (right/wrong answer or timeup-->
+                <source type="audio/mp3" >
+            </audio>
+        </div>
+    </div>
+
+    <script src="Javascript/jquery-3.1.1.min.js"></script>
+    <script src="Javascript/bootstrap.min.js"></script>
+    <script src="Javascript/circular-countdown.js"></script>
+    <script type="text/javascript" src="question1.json"></script>
+    <script type="text/javascript" src="question2.json"></script>
+    <script src="Javascript/quiz.js"></script>
+</body>
+
+</html>

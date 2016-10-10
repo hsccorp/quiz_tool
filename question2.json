@@ -1,0 +1,27 @@
+question2 = [
+    {
+        "Q": "Identify the gentleman",
+        "type": "image",
+        "av_file": "AV_1.jpg",
+        "answer": "Linus Torvalds",
+        "time": 10,
+        "pass_time": 5
+    },
+    {
+        "Q": "Identify the person in the speech",
+        "type": "audio",
+        "av_file": "AV_2.mp3",
+        "answer": "Bjarne Stroustrup",
+        "time": 10,
+        "pass_time": 5
+    },
+    {
+        "Q": "Identify the person in the speech",
+        "type": "video",
+        "av_file": "AV_3.mp4",
+        "answer": "Richard Stallman",
+        "time": 10,
+        "pass_time": 5
+    }
+];
+

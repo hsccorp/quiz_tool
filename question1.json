@@ -1,0 +1,36 @@
+question1 = [
+    {
+        "Q": "Who developed Yahoo?",
+        "type": "text",
+        "answer": 3,
+        "time": 10,
+        "pass_time": 5,
+        "options":[
+            "Ritchie & Thompson",
+            "Cerf & Kahn",
+            "Filo & Yang",
+            "Case & Bezos"
+        ]
+    },
+    {
+        "Q": "'.MOV' extension refers usually to what kind of file?",
+        "type": "text",
+        "answer": 2,
+        "time": 10,
+        "pass_time": 5,
+        "options":[
+            "Image file",
+            "Video file",
+            "Audio file",
+            "Binary file"
+        ]
+    },
+    {
+        "Q": "How many bytes does 1KB have?",
+        "type": "text",
+        "answer": "1024 bytes",
+        "time": 10,
+        "pass_time": 5,
+    }
+];
+

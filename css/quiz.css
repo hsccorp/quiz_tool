@@ -1,0 +1,77 @@
+html,body {
+    width: 98%;
+    height: 95%;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px;
+    padding: 0;
+}
+
+#logodiv{
+    padding-left: 0px;
+}
+
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+#logo{
+    max-width: 100px;
+}
+#page-container, #meatDiv{
+    height: 100%;
+}
+
+.btn.active {
+    color: white !important;
+    background: none !important;
+    background-color: #288ECB !important;
+}
+
+.correct{
+    color: green;
+    font-weight: bold;
+    animation: blinker 2s linear infinite;
+}
+
+hr {
+    margin-top: 1%;
+    color: black;
+}
+
+
+#audioVideoDiv{
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#video1 {
+    width: 100%;
+}
+
+
+#image1 {
+    margin: 0 20px 20px 40px;
+}
+
+
+#optionsDiv1, #optionsDiv2{
+    margin-left: 50px;
+}
+
+
+#controlRow, #optionsDiv{
+    width: 100%;
+}
+
+
+#controlRow{
+    top: 95%;
+    position: fixed;
+    text-align: center;
+}
