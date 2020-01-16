@@ -29,7 +29,7 @@ To run the quiz session, multiple controls are available on the bottom of the sc
     {
         "Q": "",
         "type": "text",     // could be image, audio, video
-        "answer": 3,        // index of correct answer from options. If no options, it can be text too
+        "answer": 3,        // index of correct answer from options (0 based). If no options, it can be text too
         "time": 10,         // (in secs) how long should a team get to answer the question 
         "pass_time": 5,     // (in secs) how long a team can take when this question is passed question 
         "options":[         // If the question is multiple choice based
